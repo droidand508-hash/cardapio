@@ -34,8 +34,8 @@ with col2:
 
 st.write("### Opções do Dia")
 dados_iniciais = {
-    "Prato": ["Bife Acebolado", "Bife a Cavalo", "Bife Empanado", "Frango Frito", "Frango na Chapa", "Frango Empanado", "Isca de Frango", "Bisteca Bovina", "Bife de Fígado", "Isca de Fígado", "Língua de Panela", "Omelete de Car Móid", "Picadinho com Legumes", "Misto (Carn, Fran, Calab)"],
-    "Valor (R$)": ["17,00", "18,00", "18,00", "16,00", "16,00", "17,00", "16,00", "17,00", "16,00", "16,00", "18,00", "18,00", "18,00", "18,00"]
+    "Prato": ["Bife Acebolado", "Bife a Cavalo", "Bife Empanado", "Frango Empanado", "Frango Frito", "Frango na Chapa", "Isca de Frango", "Bisteca Bovina", "Bisteca Suína", "Misto (Carn, Fran, Calab)", "Picadinho com Legumes", "Frango com Legumes", "Almôndegas", "Filé de Gó", "Filé de Dourada", "Cozidão", "Bife de Fígado", "Isca de Fígado"],
+    "Valor (R$)": ["18,00", "20,00", "20,00", "18,00", "17,00", "17,00", "17,00", "18,00", "18,00", "20,00", "20,00", "22,00", "20,00", "20,00", "22,00", "22,00", "18,00", "18,00"]
 }
 df = pd.DataFrame(dados_iniciais)
 df_editado = st.data_editor(df, num_rows="dynamic", use_container_width=True)
