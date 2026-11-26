@@ -51,7 +51,8 @@ dados_iniciais = {
               "Filé de Dourada", 
               "Cozidão", 
               "Bife de Fígado", 
-              "Isca de Fígado"],
+              "Isca de Fígado",
+              "Calabresa Acebolada"],
     "Valor (R$)": ["18,00", 
                    "20,00", 
                    "20,00", 
@@ -69,6 +70,7 @@ dados_iniciais = {
                    "23,00", 
                    "25,00", 
                    "18,00", 
+                   "18,00",
                    "18,00"]
 }
 df = pd.DataFrame(dados_iniciais)
